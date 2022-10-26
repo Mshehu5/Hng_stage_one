@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     slackUsername: "Shehu",
     Backend: true,
     age: 23,
-    bio: "I'm a Computer Engineering Student at A.B.U Zaria I like building application",
+    bio: "I'm a Computer Engineering Student at A.B.U Zaria I like building applications",
   });
 });
 
