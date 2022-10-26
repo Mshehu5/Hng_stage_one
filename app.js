@@ -4,7 +4,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({
     slackUsername: "Shehu",
-    Backend: true,
+    backend: true,
     age: 23,
     bio: "I'm a Computer Engineering Student at A.B.U Zaria I like building applications",
   });
