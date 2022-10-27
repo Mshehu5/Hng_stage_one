@@ -9,11 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "hng_stage_one"
+    "url": "https://github.com/Mshehu5/Hng_stage_one"
   },
   "author": "shehu",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {

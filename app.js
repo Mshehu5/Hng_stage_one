@@ -1,13 +1,11 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+const { details } = require("./data");
+app.use(cors({ origin: "*" }));
 
 app.get("/", (req, res) => {
-  res.json({
-    slackUsername: "Shehu",
-    backend: true,
-    age: 23,
-    bio: "I'm a Computer Engineering Student at A.B.U Zaria I like building applications",
-  });
+  res.json(details);
 });
 
 app.listen(5000, () => {
