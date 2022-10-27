@@ -2,7 +2,7 @@ const details = {
   slackUsername: "Shehu",
   backend: true,
   age: 23,
-  bio: "I'm a Computer Engineering Student at A.B.U Zaria I like building applications",
+  bio: "I like building applications and making new friends",
 };
 
 module.exports = { details };
